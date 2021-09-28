@@ -33,5 +33,14 @@ class FizzBuzzTest {
         String result = FizzBuzz.fizzBuzz(number);
         assertEquals(excepted,result);
     }
+    @Test
+    @DisplayName("Test case 27")
+    void  testFizzBuzz4(){
+        int number = 29;
+        String excepted = "29";
+
+        String result = FizzBuzz.fizzBuzz(number);
+        assertEquals(excepted,result);
+    }
 
 }
